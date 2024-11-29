@@ -15,7 +15,7 @@ if ($result->num_rows > 0) {
             'timestamp' => $row['timestamp']
         ];
     }
-    echo json_encode($history); // Envía el historial como JSON
+    echo json_encode($history); 
 } else {
     echo json_encode(['error' => 'No hay datos disponibles']);
 }

@@ -7,7 +7,7 @@ $result = $conexion->query($sql);
 if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
     echo json_encode([
-        'co2' => $row['co2_ppm'],  // Asegúrate de que este campo se llama correctamente
+        'co2' => $row['co2_ppm'], 
         'estado' => $row['estado'],
         'timestamp' => $row['timestamp']
     ]);
