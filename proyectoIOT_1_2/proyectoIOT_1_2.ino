@@ -4,7 +4,7 @@
 const char* ssid = "EnriqueS22"; 
 const char* password = "Galletas123";  
 
-String serverUrl = "http://192.168.93.151/aeras/guardar_lectura.php";  
+String serverUrl = "http:///aeras/guardar_lectura.php";  
 
 const int redPin = 27;
 const int greenPin = 26;
